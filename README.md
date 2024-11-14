@@ -22,52 +22,23 @@
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/profandregodoi/">Andre Godoi</a>
 
+## 📜 Funcionalidade da aplicação
 
-## 📜 Descrição
+Os resultados esperados incluem um chatbot funcional e econômico que melhora a interação com os clientes e produtores rurais, sem incorrer em custos adicionais. O grupo espera otimizar o atendimento ao cliente e informar produtores rurais sobre práticas agrícolas, previsões climáticas, pragas, e uso de insumos, aumentando a eficiência operacional e proporcionando respostas rápidas, reduzindo o tempo de espera. Valores agregados ao modelo de negócio incluem automação, acessibilidade e disseminação de informações valiosas aos produtores. Os ganhos incluem redução de custos de suporte, aumento na satisfação do cliente e dos produtores rurais, e mais escalabilidade
 
-📜 Descrição
+## 📜 Descrição dos componentes
 
-  Para o seguinte projeto, foi feita a busca de dados do IBGE e normalização, assim como disponibilização destes dados para consultas e análises 
+ <b>Usuário</b>: Pessoa que interage com o chatbot para obter informações ou serviços.
+ <b>Telegram</b>: Canal de comunicação que permite a interação direta entre o usuário e o chatbot, usando a API do Telegram.
+ <b>Heroku</b>: Plataforma de hospedagem na nuvem que serve como backend/servidor de aplicação, responsável por processar e gerenciar a lógica do chatbot.
+ <b>OpenAI</b>: Serviço de processamento de linguagem natural (NLP), que entende e gera respostas apropriadas para as mensagens dos usuários.
+ <b>MongoDB</b>: Banco de dados NoSQL utilizado para armazenar o histórico de conversas e outras informações relevantes dos usuários.
+ <b>Flask</b>: Framework web em Python que atua como middleware da aplicação, responsável por lidar com requisições e facilitar a integração dos componentes.
 
-- <a href="https://www.ers.usda.gov/amber-waves/2022/september/brazil-s-momentum-as-a-global-agricultural-supplier-faces-headwinds/">Artigo de inspiração</a>
+ ## 📜 Previsão dos custos
 
-Como o Sistema Funciona
+ A previsão de gastos é nula, uma vez que todas os softwares são gratuitos. Porém, Potenciais perdas de performance podem estar associadas às limitações dos serviços gratuitos, como menor capacidade de suporte e restrições de uso, que podem impactar a performance em momentos de alta demanda.
 
-Modelagem e Normalização de dados:
-
-- Utilizando o Oracle Data Modeler foi criado um Diagrama de Entidade e Relacionamento, assim como o modelo lógico físico. 
-
-Criação de bases:
-
-- Baseando-se nisso, foram emitidas as linhas para criação das bases projetadas em .dll
-  
-Consulta de dados e perguntas relevantes:
-
-- Para agregar ao estudo, foram criadas consultas capazes de responder perguntas relacionadas aos dados coletados, como: "Quem foram os vencedores dos últimos leilões?" e "Quais leilões de terra já tiveram seus vencedores anunciados?"
-  
-Documentação em Dicionário de dados:
-
-- Para finalizar, foi criado um dicionário de dados para acompanhar a interpretabilidade dos modelos de relacionamento.
-
-
-## 📁 Estrutura de pastas
-
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
-
-- <b>Diagramas</b>: Nesta pasta ficarão os diagramas criados.
-
-- <b>Bases</b>:Aqui estará o código em .dll para criação das bases e o arquivo csv que originou o projeto.
-
-- <b>Dicionário</b>: Nesta página haverá o dicionário de dados documentando o que for necessário.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
-
-## 🔧 Como executar o código
-
-
-## 🗃 Histórico de lançamentos
-
-*1.0 - 13/11/2024
 
 ## 📋 Licença
 

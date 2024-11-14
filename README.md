@@ -8,7 +8,6 @@
 
 # Sprint 01 - Solubio
 
-## BMH
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/bruno-castro-dias/">Bruno Castro - RM558359</a>
